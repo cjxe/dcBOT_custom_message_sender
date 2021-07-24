@@ -1,0 +1,28 @@
+{
+  "name": "dcBOT_custom_message_sender",
+  "version": "1.0.0",
+  "description": "Sends a custom message to a text channel.",
+  "main": "server.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjxe/dcBOT_custom_message_sender.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjxe/dcBOT_custom_message_sender/issues"
+  },
+  "homepage": "https://github.com/cjxe/dcBOT_custom_message_sender#readme"
+}
